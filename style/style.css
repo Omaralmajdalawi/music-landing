@@ -235,6 +235,9 @@ display: flex;
     border-top-right-radius: 50px;
     width: 260px;
 }
+#text h1{
+    font-size: 20px;
+}
                             }
       
     
