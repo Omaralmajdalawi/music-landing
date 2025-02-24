@@ -162,9 +162,9 @@ button:hover {
     background-position: center;
     }
     .ancer {
-        margin-left: 90px; 
+        margin-left: 60px; 
         margin-right: 20px; 
-        margin-top: 40px; 
+        margin-top: 35px; 
     }
     #buttom {
         margin-top: 15px; 
@@ -173,29 +173,38 @@ button:hover {
         font-size: 14px; 
         padding: 10px 50px; 
     }
-    #ancer2 {
+    #ancer-2 {
         margin-top: 15px; 
         padding-bottom: 20px; 
     }
     .ancer-1, .ancer-2 {
         font-size: 14px; 
+
+}
+#text p{
+    font-size: 13px;
+}
+.ancer-1{
+    display: flex;
+margin-right: 100px;
 }
 
+
 .contenar{
+    padding-top: 70px;
     display: flex;
     justify-content: center;
-    height: 60vh;
 }
 #musicsecion{
-height: 11vh;
-width: 280px;
-margin-left: 0;
-padding-left: 20px;
+    height: 80px;
+width: 240px;
+margin-left: 10px;
 
 }
 .imagmusic{
-    padding-top: 20px;
-    padding-left:1px ;
+    padding: 0;
+    padding-right: 10px;
+    padding-top: 15px;
     float: left;
 }
 .pdiv2{
@@ -203,19 +212,28 @@ padding-left: 20px;
     padding: 0;
     display: flex;
     flex-direction: column;
+    margin-bottom:10px ;
+
 }
-.pdiv2 h3 {
+
+.pdiv2{
+    margin: 0;
+}
+.pdiv2>h3 {
+
+    margin-top: 0;
+    padding: 0;
 font-size: px;
 }
 
 #contenar-1{
 display: flex;
-    width: 300px;
+    width: 260px;
 }
 .imgsong{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    width: 300px;
+    width: 260px;
 }
                             }
       
