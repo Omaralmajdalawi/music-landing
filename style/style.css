@@ -12,7 +12,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 h3{
     margin: 0;
 }
@@ -20,8 +19,9 @@ h3{
     display: flex;
     justify-content: center;
     padding-top: 100px;
-}
+    height: 64vh;
 
+}
 #text h1{
     margin: 0;
     padding-top: 20px;
@@ -129,17 +129,97 @@ button:hover{
     color: rgb(103, 103, 235);
     font-size: 17px;
 }
-.ancer-2{text-decoration: none;
+.ancer-2{
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 17px;}
-    
-@media (max-width: 768px) {
+
+#contenar-1{
+
+        display: flex;
+       flex-direction: column;
+       border-radius: 50px;
+       width: 450px;
+       background-color: white;
+}  
+button {
+    font-size: 17px;
+    padding: 15px 100px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    cursor: pointer; 
+    background-color: blue;
+}
+
+@media (max-width: 750px) {
     body {
     background-image: url(../images/pattern-background-mobile.svg) ;
     background-size: cover;
     background-repeat: no-repeat;  
     background-attachment: fixed;  
     background-position: center;
-         
     }
+    .ancer {
+        margin-left: 90px; 
+        margin-right: 20px; 
+        margin-top: 40px; 
+    }
+    #buttom {
+        margin-top: 15px; 
+    }
+    button {
+        font-size: 14px; 
+        padding: 10px 50px; 
+    }
+    #ancer2 {
+        margin-top: 15px; 
+        padding-bottom: 20px; 
+    }
+    .ancer-1, .ancer-2 {
+        font-size: 14px; 
 }
+
+.contenar{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+#musicsecion{
+height: 11vh;
+width: 290px;
+margin-left: 40px;
+padding-left: 20px;
+
+}
+.imagmusic{
+    padding-top: 20px;
+    padding-left:1px ;
+    float: left;
+}
+.pdiv2{
+    font-size: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.pdiv2 h3 {
+font-size: px;
+}
+
+#contenar-1{
+display: flex;
+    width: 390px;
+}
+.imgsong{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 390px;
+}
+                            }
+      
+    
+    
